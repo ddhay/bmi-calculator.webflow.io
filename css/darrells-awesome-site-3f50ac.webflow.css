@@ -1,0 +1,959 @@
+:root {
+  --white: white;
+  --black: black;
+}
+
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.w-layout-hflex {
+  flex-direction: row;
+  align-items: flex-start;
+  display: flex;
+}
+
+@media screen and (max-width: 991px) {
+  .w-layout-blockcontainer {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .w-layout-blockcontainer {
+    max-width: none;
+  }
+}
+
+.hero-section {
+  max-width: 1440px;
+}
+
+.container {
+  max-width: 1440px;
+  height: auto;
+}
+
+.div-block {
+  background-image: linear-gradient(298deg, #d6e6fe, #fff);
+  max-width: 880px;
+  height: auto;
+}
+
+.div-block-2 {
+  max-width: 460px;
+}
+
+.heading {
+  max-width: 890px;
+  margin-top: 140px;
+  margin-bottom: 35px;
+  margin-left: 82px;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 70px;
+}
+
+.paragraph {
+  max-width: 465px;
+  margin-bottom: 100px;
+  margin-left: 82px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.div-block-3 {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 560px;
+  height: auto;
+}
+
+.flex-block {
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+}
+
+.code-embed {
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+  margin-top: 220px;
+}
+
+.image {
+  margin-top: 74px;
+  margin-left: 82px;
+}
+
+.meaning-section {
+  margin-top: 20px;
+  margin-bottom: 96px;
+}
+
+.container-2 {
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 1120px;
+  padding-left: 0;
+  display: flex;
+}
+
+.image-6 {
+  margin-left: 28px;
+}
+
+.div-block-4 {
+  flex-flow: column;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  max-width: 465px;
+  margin-left: 131px;
+  padding-left: 0;
+  padding-right: 20px;
+  display: flex;
+}
+
+.heading-2 {
+  color: #253347;
+  letter-spacing: -2.4px;
+  max-width: 100%;
+  height: auto;
+  margin-top: 178px;
+  margin-bottom: 35px;
+  margin-left: 0;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 53px;
+}
+
+.paragraph-2 {
+  max-width: 100%;
+}
+
+.features-block {
+  max-width: 365px;
+  height: auto;
+}
+
+.features-container {
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  max-width: 1392px;
+  height: 269px;
+  display: flex;
+}
+
+.heading-3 {
+  color: #253347;
+  letter-spacing: -1.2px;
+  max-width: 176px;
+  height: 29px;
+  font-weight: 600;
+}
+
+.features-section {
+  height: 402px;
+  padding-top: 72px;
+  padding-left: 30px;
+}
+
+.paragraph-3 {
+  color: #5e6e85;
+}
+
+.header-limitations {
+  max-width: 400px;
+}
+
+.paragraph-4 {
+  color: #5e6e85;
+  max-width: 564px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.paragraph-5 {
+  color: #5e6e85;
+  max-width: 99.9999%;
+  margin-top: 20px;
+}
+
+.description {
+  max-width: 301px;
+  height: 120px;
+}
+
+.muscle-block {
+  background-color: #fff;
+  border-radius: 16px;
+  max-width: 365px;
+  height: 184px;
+  margin-top: 147px;
+  margin-left: 25px;
+  padding: 32px;
+  position: relative;
+  top: -285px;
+  left: 413px;
+  box-shadow: 16px 32px 56px rgba(0, 0, 0, .2);
+}
+
+.race-block {
+  background-color: #fff;
+  border-radius: 16px;
+  max-width: 365px;
+  height: 227px;
+  margin-top: 109px;
+  margin-left: 381px;
+  padding: 32px;
+  position: relative;
+  top: -339px;
+  left: 39px;
+  box-shadow: 16px 32px 56px rgba(0, 0, 0, .2);
+}
+
+.heading-5 {
+  margin-left: 16px;
+  display: inline;
+}
+
+.age-muscle-block {
+  max-width: 1440px;
+  height: 200px;
+  margin-top: 0;
+  margin-left: 55px;
+  padding-left: 0;
+}
+
+.heading-4 {
+  color: #253347;
+  letter-spacing: -2.4px;
+  max-width: 564px;
+  margin-left: 0;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 110%;
+}
+
+.container-3 {
+  max-width: 1160px;
+  height: 1000px;
+  margin-top: 39px;
+}
+
+.gender-block {
+  background-color: #fff;
+  border-radius: 16px;
+  max-width: 365px;
+  height: 232px;
+  margin-top: 0;
+  margin-left: -56px;
+  padding: 32px;
+  position: relative;
+  top: 9px;
+  left: 24px;
+  box-shadow: 16px 32px 56px rgba(0, 0, 0, .2);
+}
+
+.age-block {
+  background-color: #fff;
+  border-radius: 16px;
+  max-width: 365px;
+  height: 184px;
+  margin-top: 0;
+  margin-left: -3px;
+  padding: 32px;
+  position: relative;
+  top: 46px;
+  box-shadow: 16px 32px 56px rgba(0, 0, 0, .2);
+}
+
+.image-2 {
+  display: inline;
+}
+
+.limitations-section {
+  max-width: 1440px;
+  height: 1000px;
+  margin-top: 84px;
+  margin-left: 22px;
+  padding-left: 37px;
+  display: none;
+}
+
+.pregnancy-block {
+  background-color: #fff;
+  border-radius: 16px;
+  max-width: 365px;
+  height: 232px;
+  margin-top: 2px;
+  margin-left: 387px;
+  padding: 32px;
+  position: relative;
+  left: -423px;
+  box-shadow: 16px 32px 56px rgba(0, 0, 0, .2);
+}
+
+.heading-gender-block {
+  grid-column-gap: 151px;
+  grid-row-gap: 151px;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  height: 276px;
+  padding-left: 0;
+  display: flex;
+}
+
+.pregnancy-race-block {
+  grid-column-gap: 41px;
+  grid-row-gap: 41px;
+  max-width: 1440px;
+  margin-top: 174px;
+  margin-left: 60px;
+}
+
+.body {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.heading-6 {
+  color: #253347;
+  letter-spacing: -2.4px;
+  max-width: 564px;
+  margin-left: 0;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 110%;
+}
+
+.paragraph-6 {
+  color: #5e6e85;
+  max-width: 564px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.heading-gender-block-2 {
+  grid-column-gap: 151px;
+  grid-row-gap: 151px;
+  max-width: 1440px;
+  height: 276px;
+  padding-left: 0;
+  display: flex;
+}
+
+.gender-block-2 {
+  background-color: #fff;
+  border-radius: 16px;
+  max-width: 365px;
+  height: 232px;
+  margin-top: 248px;
+  margin-left: -56px;
+  padding: 32px;
+  position: relative;
+  top: -241px;
+  box-shadow: 16px 32px 56px rgba(0, 0, 0, .2);
+}
+
+.paragraph-7 {
+  color: #5e6e85;
+  max-width: 99.9999%;
+  margin-top: 20px;
+}
+
+.pregnancy-race-block-2 {
+  grid-column-gap: 41px;
+  grid-row-gap: 41px;
+  max-width: 1440px;
+  margin-top: 174px;
+  margin-left: 60px;
+}
+
+.pregnancy-block-2 {
+  background-color: #fff;
+  border-radius: 16px;
+  max-width: 365px;
+  height: 232px;
+  margin-top: 2px;
+  margin-left: 387px;
+  padding: 32px;
+  position: relative;
+  left: -423px;
+  box-shadow: 16px 32px 56px rgba(0, 0, 0, .2);
+}
+
+.section-limitations {
+  max-width: 1440px;
+  height: 1000px;
+  margin-top: 84px;
+  margin-left: 22px;
+  padding-left: 37px;
+  display: block;
+}
+
+@media screen and (min-width: 1440px) {
+  .meaning-section {
+    margin-left: -16px;
+  }
+
+  .container-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .header-limitations {
+    max-width: 432px;
+    padding-right: 0;
+  }
+
+  .paragraph-4 {
+    height: 96px;
+  }
+
+  .age-muscle-block {
+    max-width: 800px;
+    height: 343px;
+    margin-top: -6px;
+  }
+
+  .heading-4 {
+    height: 52.7954px;
+  }
+
+  .container-3 {
+    max-width: 1440px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .gender-block {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .age-block {
+    margin-left: -4px;
+  }
+
+  .limitations-section {
+    height: 704px;
+  }
+
+  .heading-gender-block {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 40px;
+  }
+
+  .heading-6 {
+    height: 52.7954px;
+  }
+
+  .paragraph-6 {
+    height: 96px;
+  }
+
+  .heading-gender-block-2 {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-left: 40px;
+  }
+
+  .gender-block-2 {
+    margin-top: 517px;
+    margin-left: 103px;
+  }
+
+  .section-limitations {
+    height: 704px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    max-width: 728px;
+    padding-left: 0;
+    padding-right: 1px;
+  }
+
+  .div-block {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
+  .flex-block {
+    flex-flow: column;
+  }
+
+  .code-embed {
+    margin-top: 35px;
+  }
+
+  .meaning-section {
+    margin-top: 102px;
+  }
+
+  .container-2 {
+    max-height: 450px;
+  }
+
+  .div-block-4 {
+    margin-left: 99px;
+  }
+
+  .heading-2 {
+    max-width: 447px;
+    margin-top: 84px;
+    margin-right: 10px;
+  }
+
+  .paragraph-2 {
+    margin-right: 10px;
+  }
+
+  .features-block {
+    max-width: 674px;
+    display: flex;
+  }
+
+  .image-5, .image-4 {
+    margin-right: 40px;
+  }
+
+  .features-description {
+    flex-flow: column;
+    max-width: 681px;
+    display: flex;
+  }
+
+  .features-container {
+    flex-flow: column;
+  }
+
+  .features-section {
+    height: 491px;
+    margin-top: 11px;
+    padding-top: 0;
+  }
+
+  .features-detail {
+    flex-flow: row;
+    max-width: 761px;
+    display: flex;
+  }
+
+  .paragraph-3 {
+    max-width: 569px;
+  }
+
+  .image-3 {
+    max-width: 64px;
+    margin-right: 40px;
+  }
+
+  .header-limitations {
+    max-width: 300px;
+    height: 262px;
+  }
+
+  .paragraph-4 {
+    text-align: center;
+    max-width: 686px;
+    height: 72px;
+    font-size: 14px;
+  }
+
+  .paragraph-5 {
+    font-size: 14px;
+  }
+
+  .muscle-block {
+    max-width: 330px;
+    margin-left: -82px;
+  }
+
+  .race-block {
+    margin-left: 263px;
+  }
+
+  .heading-4 {
+    text-align: center;
+    letter-spacing: -1.2px;
+    font-size: 32px;
+  }
+
+  .container-3 {
+    max-width: 768px;
+    height: 1200px;
+    margin-left: -44px;
+  }
+
+  .gender-block {
+    margin-left: -116px;
+  }
+
+  .age-block {
+    margin-left: -55px;
+  }
+
+  .limitations-section {
+    max-width: 768px;
+    height: auto;
+    margin-top: 95px;
+    padding-left: 40px;
+  }
+
+  .pregnancy-block {
+    margin-left: 383px;
+  }
+
+  .heading-6 {
+    text-align: center;
+    letter-spacing: -1.2px;
+    font-size: 32px;
+  }
+
+  .paragraph-6 {
+    text-align: center;
+    max-width: 686px;
+    height: 72px;
+    font-size: 14px;
+  }
+
+  .gender-block-2 {
+    margin-left: -116px;
+  }
+
+  .paragraph-7 {
+    font-size: 14px;
+  }
+
+  .pregnancy-block-2 {
+    margin-left: 383px;
+  }
+
+  .section-limitations {
+    max-width: 768px;
+    height: auto;
+    margin-top: 95px;
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-section {
+    margin-bottom: 190px;
+  }
+
+  .div-block {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .heading {
+    text-align: center;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .paragraph {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .image {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .meaning-section {
+    margin-top: 811px;
+    margin-left: 8px;
+  }
+
+  .container-2 {
+    flex-flow: column;
+    margin-top: 271px;
+    padding-left: 0;
+    padding-right: 10px;
+  }
+
+  .heading-2 {
+    text-align: center;
+    margin-top: 17px;
+    font-size: 36px;
+  }
+
+  .paragraph-2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .features-block {
+    max-width: 450px;
+  }
+
+  .features-section {
+    max-width: 450px;
+    margin: 150px auto 369px;
+  }
+
+  .header-limitations {
+    max-width: 435px;
+    margin-bottom: -104px;
+  }
+
+  .paragraph-4 {
+    max-width: 758px;
+  }
+
+  .paragraph-5 {
+    font-size: 12px;
+  }
+
+  .description {
+    margin-bottom: 76px;
+    margin-left: 14px;
+  }
+
+  .muscle-block {
+    margin-top: 352px;
+    margin-left: -821px;
+  }
+
+  .race-block {
+    margin-top: 606px;
+    margin-left: -871px;
+  }
+
+  .age-muscle-block {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 289px;
+    margin-left: -26px;
+    padding-left: 0;
+    display: flex;
+  }
+
+  .gender-block {
+    margin-top: 305px;
+    margin-left: -2px;
+    padding-left: 0;
+  }
+
+  .age-block {
+    margin-bottom: 54px;
+    margin-left: 21px;
+  }
+
+  .limitations-section {
+    margin-top: 142px;
+  }
+
+  .pregnancy-block {
+    margin-top: -87px;
+    margin-left: 450px;
+  }
+
+  .heading-gender-block {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pregnancy-race-block {
+    display: flex;
+  }
+
+  .paragraph-6 {
+    max-width: 758px;
+  }
+
+  .heading-gender-block-2 {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gender-block-2 {
+    margin-top: 305px;
+    margin-left: -2px;
+    padding-left: 0;
+  }
+
+  .paragraph-7 {
+    font-size: 12px;
+  }
+
+  .pregnancy-race-block-2 {
+    display: flex;
+  }
+
+  .pregnancy-block-2 {
+    margin-top: -87px;
+    margin-left: 450px;
+  }
+
+  .section-limitations {
+    margin-top: 142px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .hero-section {
+    margin-bottom: -41px;
+  }
+
+  .container {
+    max-width: 1440px;
+    height: auto;
+    padding-right: 0;
+  }
+
+  .div-block {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+  }
+
+  .heading {
+    text-align: center;
+    max-width: 375px;
+    margin-left: 10px;
+    padding-right: 10px;
+    font-size: 44px;
+    line-height: 53px;
+  }
+
+  .paragraph {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .div-block-3 {
+    max-width: 1440px;
+    height: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+  }
+
+  .flex-block {
+    max-width: 1440px;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .code-embed {
+    max-width: 320px;
+    padding-left: 0;
+    padding-right: 40px;
+  }
+
+  .image {
+    margin-left: auto;
+  }
+
+  .meaning-section {
+    margin-top: 403px;
+  }
+
+  .image-6 {
+    margin-left: -1px;
+  }
+
+  .div-block-4 {
+    margin-left: 10px;
+  }
+
+  .heading-2 {
+    text-align: left;
+    margin-top: 40px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .paragraph-2 {
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .features-section {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .paragraph-4 {
+    padding-right: 20px;
+  }
+
+  .paragraph-5 {
+    line-height: 18px;
+  }
+
+  .description, .muscle-block {
+    max-width: 365px;
+  }
+
+  .heading-4 {
+    padding-right: 10px;
+  }
+
+  .age-block {
+    margin-left: 13px;
+  }
+
+  .pregnancy-block {
+    margin-left: 400px;
+  }
+
+  .pregnancy-race-block {
+    margin-left: 11px;
+    padding-left: 0;
+  }
+
+  .gender-block-2 {
+    margin-left: -17px;
+  }
+
+  .pregnancy-block-2 {
+    margin-left: 352px;
+  }
+}
+
+
